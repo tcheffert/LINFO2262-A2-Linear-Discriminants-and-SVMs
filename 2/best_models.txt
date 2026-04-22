@@ -1,0 +1,15 @@
+my_rbf_svm = SVC(kernel='rbf', C=10.826367, gamma=0.01610262)
+-> CV accuracy: 0.877273 | Test accuracy: 0.847716 
+
+my_sigm_svm = SVC(kernel='sigmoid', C=41.871879, gamma='scale', coef0=-1.523810)
+-> CV accuracy: 0.886364 | Test Accuracy = 0.852792
+
+my_poly_svm = SVC(kernel='poly', degree=2, C=0.003, gamma=1.5, coef0=3.75)
+-> CV accuracy: 0.868182 | Test Accuracy = 0.8426
+
+my_linear = SVC(kernel='linear')
+-> CV accuracy: 0.8409 | Test Accuracy = 0.8325
+
+
+my_rbf_svm = SVC(kernel='rbf', C=13.538762, gamma=0.014636)
+-> CV accuracy: 0.877273 | Test accuracy: 0.8731 

@@ -1,0 +1,9 @@
+Kernel	Accuracy	Meilleurs paramètres
+
+RBF	0.872727	my_rbf_svm = SVC(kernel='rbf', C=25, gamma='scale')
+
+Polynomial	0.8591	degree=2, C=10, gamma='scale', coef0=0.5
+
+Sigmoid	0.859091 	my_sigm_svm = SVC(kernel='sigmoid', C=75, gamma=0.01, coef0=-1)
+
+(Linear): 0.8409

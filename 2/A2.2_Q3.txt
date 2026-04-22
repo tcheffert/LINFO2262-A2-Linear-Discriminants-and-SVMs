@@ -1,0 +1,17 @@
+Meilleurs paramètres Poly: {'svm__C': 10, 'svm__coef0': 1, 'svm__degree': 4, 'svm__gamma': 'scale', 'svm__kernel': 'poly'}
+
+
+======================================================================
+Meilleurs paramètres trouvés: {'svm__C': 0.01, 'svm__coef0': 3, 'svm__degree': 2, 'svm__gamma': 1, 'svm__kernel': 'poly'}
+Meilleure accuracy (CV): 0.859091
+======================================================================
+
+NEW BEST : Score CV: 0.868182
+
+my_poly_svm = SVC(
+    kernel='poly',
+    degree=2,
+    C=0.003,  # ou 0.004, 0.005 donnent le même score
+    gamma=1.5,  # ou 1.2, 1.25, 1.3 
+    coef0=3.75  # ou 3.0, 3.5, 4.0
+)
